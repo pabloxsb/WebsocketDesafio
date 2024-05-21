@@ -1,0 +1,31 @@
+<h2>Productos</h2>
+<div id="products">
+</div>
+
+<form id="form" method="post">
+  <label for="title" class="form-label">Titulo</label>
+  <input type="text" class="form-input" id="title" />
+
+  <label for="description" class="form-label">Descripción</label>
+  <input type="text" class="form-input" id="description" />
+
+  <label for="code" class="form-label">Codigo</label>
+  <input type="text" class="form-input" id="code" />
+
+  <label for="price" class="form-label">Precio</label>
+  <input type="number" class="form-input" id="price" />
+
+  <label for="stock" class="form-label">Stock</label>
+  <input type="number" class="form-input" id="stock" />
+
+  <label for="category" class="form-label">Categoria</label>
+  <input type="text" class="form-input" id="category" />
+
+  <label for="thumbnails" class="form-label">Imagenes</label>
+  <input type="text" class="form-input" id="thumbnails" />
+
+  <button id="send">Send</button>
+</form>
+
+<script src="/socket.io/socket.io.js" charset="utf-8"></script>
+<script src="/js/index.js" charset="utf-8" type="module"></script>
